@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    
+    <header>
+        <h2 class="titulo-principal">Encriptador Desafio Alura</h2>
+    </header>   
+    
+    <main>
+        
+        <div class="textoIngresar">
+            <textarea id="texto" cols="30" rows="20" class="input-mensaje" required placeholder="Ingrese el texto por favor" onkeypress="return(event.charCode >= 97 && event.charCode <= 122) || (event.charCode >= 48 && event.charCode <= 57) || (event.charCode == 32)"></textarea>
+            <textarea id="textoResultado" cols="30" rows="20" class="input-mensaje" ></textarea>
+        </div>
+
+        <div class="botones">
+            <button onclick="encriptar()"" class="encriptarTexto" id="botonesEd">Encriptar</button>
+            <button onclick="desencriptar()" class="desencriptarTexto" id="botonesEd">Desencriptar</button>
+            <button onclick="" class="copiar" id="copy">Copiar</button>
+        </div>             
+        <p><b>Nota: </b>No se permite caracteres especiales, ni mayusculas</p>
+    </main>
+    <footer>
+        
+        <p>Danilo Palacio Arboleda 
+            Estudiante Alura
+        </p>
+    </footer>
+    <script src="encriptador.js"></script>
+</body>
+</html>

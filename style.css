@@ -1,0 +1,75 @@
+body{
+    width: 960px;
+    background-image: url("imagenes/fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.titulo-principal{
+    padding: 0 0 20px;
+    font-family: "inter", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: rgb(94, 85, 85) 4px 4px, black 6px 6px;
+    
+    font-weight: bold;
+    font-style: italic;
+    color: #f0f0f0;
+
+}
+
+div{
+    width: 960px;
+}
+
+.input-mensaje{
+    font-size: 20px !important;
+    display:inline-block;
+    margin: 0 0 20px;
+    margin-left: 70px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+    background: #f5f7f89d;    
+    padding: 10px 25px;
+    width: 35%;
+    box-shadow: rgb(141, 115, 115) 3px 3px;
+}
+
+
+button{
+    display: inline-block;    
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 20px;
+    margin-left: 15%;    
+    width: auto;
+    font-family: "inter", sans-serif;
+    font-style: italic;
+    border-radius: 5px;
+    border: none;    
+    cursor: pointer;    
+    box-shadow: rgb(13, 35, 77) 4px 4px;
+    color: white;
+    text-shadow: rgb(94, 85, 85) 1px 1px, black 2px 2px;;
+    background-color: #000000;
+}
+
+main p{
+    text-align: center;
+    font-family: "inter", sans-serif;
+    color: red;
+    font-size: 18px;
+    font-style: italic;
+}
+
+footer{
+    display: inline-block;
+    font-family: sans-serif;
+    color: #f0f0f0;
+    font-size: 15px;
+    margin: 10px 0 0 40%;
+}
